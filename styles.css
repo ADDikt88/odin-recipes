@@ -1,8 +1,49 @@
-.food_img {
-    width: 300px;
-    height: auto;
+* {
+    /*border: 1px solid black;*/
+    
+
 }
 
-#recipe_list {
+div 
+{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+body {
+    margin: 16px 16px;
+    padding: 16px; 
+    width: auto;
+    border: 1px solid black;
+}
+.food-img {
+    width: 300px;
+    height: 300px;
+    margin: 16px auto;
+    padding: 16px;
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.title-img {
+    margin: 16px auto;
+    padding: 16px; 
+    display: block;
+    width: 600px;
+    text-align: center;    
+    
+}
+
+#recipe-list {
     font-size: 24px;
+    margin: auto;
+    text-align: center;
+    padding: 16px;
+    list-style-type: none;
+
+}
+
+.main-title {
+    margin: auto;
+    text-align: center;
 }
